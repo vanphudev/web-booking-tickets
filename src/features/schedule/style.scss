@@ -1,0 +1,162 @@
+.lich_trinh {
+   .schedule-container {
+      width: 100%;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin: auto;
+   }
+
+   .wrapper-container-left {
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      max-width: 1200px;
+   }
+
+   .input-group {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 50px;
+      width: 100%;
+      position: relative;
+   }
+
+   .icon-search {
+      position: relative;
+      flex: 1;
+   }
+
+   .input-field {
+      width: 100%;
+      padding: 10px 10px 10px 40px;
+      height: 45px;
+      font-weight: 500;
+      border-radius: 20px;
+      border: 1px solid rgb(222, 218, 218);
+      transition: border-color 0.3s ease;
+   }
+
+   .input-field:focus {
+      border-color: red;
+      outline: none;
+   }
+
+   .icon-search img {
+      position: absolute;
+      left: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      transition: transform 0.3s ease;
+   }
+
+   .icon-search img.flipped {
+      transform: translateY(-50%) scaleX(-1);
+   }
+
+   .switch-location-Schedule {
+      width: 50px;
+      position: absolute;
+      cursor: pointer;
+      object-fit: contain;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      z-index: 1;
+      transition: transform 0.5s ease;
+   }
+
+   .switch-location-Schedule:hover {
+      transform: translateX(-50%) translateY(-50%) rotate(180deg);
+   }
+
+   .schedule-card {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #dde2e8;
+      border-radius: 16px;
+      padding: 16px 12px 12px;
+      overflow: auto;
+      min-width: 810px;
+      margin-bottom: 20px;
+      gap: 10px;
+      font-weight: 500;
+   }
+
+   .schedule-card .ant-col {
+      margin-left: 8px;
+      display: flex;
+      text-align: left;
+      padding: 0 10px;
+   }
+
+   .ant-row {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 6px;
+      flex-wrap: nowrap; /* Ngăn chặn phần tử bị chia dòng */
+   }
+
+   .ant-col-6 {
+      flex: 0 0 25%;
+      max-width: 25%;
+   }
+
+   .ant-col-2 {
+      flex: 0 0 8.33333333%;
+      max-width: 8.33333333%;
+   }
+
+   .ant-col-3 {
+      flex: 0 0 12.5%;
+      max-width: 12.5%;
+   }
+
+   .ant-col-4 {
+      flex: 0 0 16.66666667%;
+      max-width: 16.66666667%;
+   }
+
+   .schedule-card-tile::after {
+      content: "";
+      flex: 1;
+   }
+
+   .ant-col {
+      font-size: 17px;
+      padding: 10px;
+
+      .font-medium {
+         margin-right: 10px;
+         font-weight: 500;
+      }
+
+      .text-orange {
+         color: #ef5222;
+      }
+      span {
+         margin-left: 10px;
+      }
+      .h2 {
+         font-weight: 500;
+      }
+   }
+
+   /* Đảm bảo button không di chuyển khi màn hình nhỏ */
+   .button-container {
+      display: flex;
+      margin-right: 15px;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 10px;
+      flex: 1;
+   }
+
+   .button-container .ant-btn {
+      margin: 0;
+   }
+}

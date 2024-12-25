@@ -1,0 +1,21 @@
+.ant-radio-wrapper-checked {
+   color: var(--ant-primary-color) !important;
+   font-weight: 500 !important;
+}
+
+.ant-radio-checked .ant-radio-inner {
+   border-color: var(--ant-primary-color);
+}
+
+.select-search .ant-select-selector {
+   cursor: pointer;
+   border: 1px solid #dde2e8;
+   padding: 12px 20px !important;
+   border-radius: 8px !important;
+   height: 67px !important;
+}
+
+.select-search .ant-select-selector .ant-select-arrow {
+   right: 11px;
+}
+

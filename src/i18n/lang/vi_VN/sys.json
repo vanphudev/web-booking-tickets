@@ -1,0 +1,185 @@
+{
+   "sys": {
+      "api": {
+         "operationSuccess": "Thao tác thành công",
+         "operationFailed": "Thao tác thất bại",
+         "errorTip": "Thông báo lỗi",
+         "successTip": "Thông báo thành công",
+         "errorMessage": "Thao tác thất bại, hệ thống có lỗi!",
+         "timeoutMessage": "Đăng nhập hết thời gian, vui lòng đăng nhập lại!",
+         "apiTimeoutMessage": "Yêu cầu hết thời gian chờ, vui lòng làm mới trang và thử lại!",
+         "apiRequestFailed": "Yêu cầu lỗi, vui lòng thử lại sau",
+         "networkException": "Lỗi mạng",
+         "networkExceptionMsg": "Lỗi mạng, vui lòng kiểm tra kết nối của bạn!",
+         "errMsg401": "Người dùng không có quyền (token, tài khoản, mật khẩu không đúng)!",
+         "errMsg403": "Người dùng được cấp quyền nhưng truy cập bị cấm!",
+         "errMsg404": "Yêu cầu mạng lỗi, không tìm thấy tài nguyên!",
+         "errMsg405": "Yêu cầu mạng lỗi, phương thức yêu cầu không được cho phép!",
+         "errMsg408": "Yêu cầu mạng hết thời gian chờ!",
+         "errMsg500": "Lỗi máy chủ, vui lòng liên hệ quản trị viên!",
+         "errMsg501": "Chức năng mạng chưa được thực hiện!",
+         "errMsg502": "Lỗi mạng!",
+         "errMsg503": "Dịch vụ không khả dụng, máy chủ quá tải hoặc đang bảo trì!",
+         "errMsg504": "Hết thời gian chờ mạng!",
+         "errMsg505": "Phiên bản HTTP không hỗ trợ yêu cầu này!"
+      },
+      "login": {
+         "backSignIn": "Quay lại",
+         "signInFormTitle": "Đăng nhập",
+         "mobileSignInFormTitle": "Điện thoại",
+         "qrSignInFormTitle": "QR",
+         "signUpFormTitle": "Đăng ký",
+         "forgetFormTitle": "Đặt lại mật khẩu",
+         "signInPrimaryTitle": "Chào mừng trở lại",
+         "signInSecondTitle": "FUTA Bus - Admin - Ứng dụng quản lý xe khách",
+         "signInDesc": "Nhập thông tin cá nhân của bạn để bắt đầu sử dụng!",
+         "policy": "Tôi đồng ý với chính sách bảo mật của xxx",
+         "scanSign": "Quét mã và nhấp 'Xác nhận' để hoàn tất đăng nhập",
+         "forgetFormSecondTitle": "Vui lòng nhập email liên kết với tài khoản của bạn, chúng tôi sẽ gửi liên kết đặt lại mật khẩu qua email.",
+         "loginButton": "Đăng nhập",
+         "registerButton": "Đăng ký",
+         "rememberMe": "Nhớ tài khoản",
+         "forgetPassword": "Quên mật khẩu?",
+         "otherSignIn": "Đăng nhập bằng phương thức khác",
+         "sendSmsButton": "Gửi mã xác nhận",
+         "sendSmsText": "{{second}} giây nữa.",
+         "sendEmailButton": "Gửi email",
+         "loginSuccessTitle": "Đăng nhập thành công",
+         "loginSuccessDesc": "Chào mừng trở lại",
+         "accountPlaceholder": "Vui lòng nhập tài khoản",
+         "passwordPlaceholder": "Vui lòng nhập mật khẩu",
+         "confirmPasswordPlaceholder": "Vui lòng nhập mật khẩu xác nhận",
+         "emaildPlaceholder": "Vui lòng nhập email",
+         "smsPlaceholder": "Vui lòng nhập mã xác nhận",
+         "mobilePlaceholder": "Vui lòng nhập số điện thoại",
+         "policyPlaceholder": "Phải đồng ý với chính sách mới có thể đăng ký",
+         "diffPwd": "Hai lần nhập mật khẩu không khớp",
+         "userName": "Tài khoản",
+         "password": "Mật khẩu",
+         "confirmPassword": "Xác nhận mật khẩu",
+         "email": "Email",
+         "smsCode": "Mã xác nhận",
+         "mobile": "Số điện thoại",
+         "registerAndAgree": "Đăng ký tức là tôi đồng ý",
+         "termsOfService": " Điều khoản dịch vụ ",
+         "privacyPolicy": " Chính sách bảo mật ",
+         "logout": "Đăng xuất"
+      },
+      "tab": {
+         "fullscreen": "Toàn màn hình",
+         "refresh": "Làm mới",
+         "close": "Đóng tab",
+         "closeOthers": "Đóng các tab khác",
+         "closeAll": "Đóng tất cả tab",
+         "closeLeft": "Đóng các tab bên trái",
+         "closeRight": "Đóng các tab bên phải"
+      },
+      "menu": {
+         "dashboard": {
+            "index": "Bảng điều khiển",
+            "workbench": "Bàn làm việc",
+            "analysis": "Phân tích"
+         },
+         "management": {
+            "index": "Quản lý chung",
+            "office": "Văn phòng - Địa điểm",
+            "vehicle": "Xe khách",
+            "article": "Bài viết - Tin tức",
+            "methodPayment": "Phương thức thanh toán",
+            "review": "Đánh giá - Phản hồi",
+            "driver": "Tài xế",
+            "voucher": "Mã giảm giá"
+         },
+         "users": {
+            "index": "Quản lý người dùng",
+            "customer": "Khách hàng",
+            "employee": "Nhân viên",
+            "permission": {
+               "index": "Phân quyền",
+               "role": "Vai trò",
+               "group": "Nhóm",
+               "grant-role": "Gán vai trò"
+            }
+         },
+         "routes": {
+            "index": "Quản lý tuyến đường",
+            "route": "Tuyến đường",
+            "trip": "Chuyến đi"
+         },
+         "reports": {
+            "index": "Báo cáo - Thống kê",
+            "customer": "Thống kê khách hàng",
+            "employee": "Thống kê nhân viên",
+            "by-employee": "Thống kê theo nhân viên",
+            "booking": "Thống kê đặt vé",
+            "today": "Thống kê hôm nay"
+         },
+         "system": {
+            "index": "Quản lý hệ thống",
+            "backup": "Sao lưu",
+            "restore": "Khôi phục",
+            "setting": "Cài đặt"
+         },
+         "ticket": {
+            "index": "Vé xe khách"
+         },
+         "bookings": {
+            "index": "Đặt vé xe khách",
+            "booking": "Đặt vé",
+            "cancel": "Hủy vé",
+            "history": "Lịch sử đặt vé"
+         },
+         "information": {
+            "index": "Thông tin cá nhân",
+            "profile": "Hồ sơ cá nhân",
+            "logout": "Đăng xuất"
+         },
+         "user": {
+            "index": "Người dùng",
+            "profile": "Hồ sơ",
+            "account": "Tài khoản"
+         },
+         "blog": "Blog",
+         "components": "Thành phần",
+         "icon": "Biểu tượng",
+         "animate": "Hoạt ảnh",
+         "scroll": "Cuộn",
+         "markdown": "Markdown",
+         "editor": "Soạn thảo văn bản",
+         "i18n": "Đa ngôn ngữ",
+         "upload": "Tải lên",
+         "chart": "Biểu đồ",
+         "functions": "Chức năng",
+         "clipboard": "Bảng nhớ tạm",
+         "token_expired": "Token hết hạn",
+         "menulevel": {
+            "index": "Menu đa cấp",
+            "1a": "Menu đa cấp 1a",
+            "1b": {
+               "index": "Menu đa cấp 1b",
+               "2a": "Menu đa cấp 2a",
+               "2b": {
+                  "index": "Menu đa cấp 2b",
+                  "3a": "Menu đa cấp 3a",
+                  "3b": "Menu đa cấp 3b"
+               }
+            }
+         },
+         "disabled": "Mục bị vô hiệu",
+         "label": "Nhãn mục",
+         "frame": "Liên kết ngoài dự án",
+         "external_link": "Liên kết ngoài",
+         "iframe": "Liên kết nội",
+         "blank": "Trống",
+         "calendar": "Lịch",
+         "kanban": "Kanban",
+         "error": {
+            "index": "Trang lỗi",
+            "403": "403",
+            "404": "404",
+            "500": "500"
+         }
+      },
+      "docs": "Tài liệu"
+   }
+}

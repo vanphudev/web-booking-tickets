@@ -1,0 +1,125 @@
+// Biến màu sắc chung.
+$bg-orange: #fff7f5; // Dùng cho màu nền - Cam nhạt
+$bg-white: #ffffff; // Dùng cho màu nền - Trắng
+$bg-green: #00613d; // Dùng cho màu nền - Xanh lá cây
+$bg-primary: #ef5222; // Dùng cho màu nền - Cam đậm
+$text-primary-color: #ef5222; // Dùng cho màu chữ - Cam đậm
+$text-secondary-color: #fff7f5; // Dùng cho màu chữ - Cam nhạt
+$text-error-color: #e12424; // Dùng cho màu chữ - Đỏ
+$text-white-color: #fff; // Dùng cho màu chữ - Trắng
+$text-black-color: #111; // Dùng cho màu chữ - Đen
+$text-green-color: #00613d; // Dùng cho màu chữ - Xanh lá cây
+$text-green-color-2: #50b55a; // Dùng cho màu chữ - Xanh lá cây
+$text-gray-color-400: #bdbdbd; // Dùng cho màu chữ - Xám
+$text-gray-color-600: #637280; // Dùng cho màu chữ - Xám
+$text-blue-color-branch: #273581; // Dùng cho màu chữ - Xanh dương
+
+// Import Tailwind CSS.
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Import font from Google Fonts.
+// Link truy cập font: https://fonts.google.com/sp ecimen/Inter+Tight
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+// Biến màu sắc chung.
+:root {
+   --bg-orange: #fff7f5; // Dùng cho màu nền - Cam nhạt
+   --bg-white: #ffffff; // Dùng cho màu nền - Trắng
+   --bg-green: #00613d; // Dùng cho màu nền - Xanh lá cây
+   --bg-primary: #ef5222; // Dùng cho màu nền - Cam đậm
+   --text-primary-color: #ef5222; // Dùng cho màu chữ - Cam đậm
+   --text-secondary-color: #fff7f5; // Dùng cho màu chữ - Cam nhạt
+   --text-error-color: #e12424; // Dùng cho màu chữ - Đỏ
+   --text-white-color: #fff; // Dùng cho màu chữ - Trắng
+   --text-black-color: #111; // Dùng cho màu chữ - Đen
+   --text-green-color: #00613d; // Dùng cho màu chữ - Xanh lá cây
+   --text-green-color-2: #50b55a; // Dùng cho màu chữ - Xanh lá cây
+   --text-gray-color-400: #bdbdbd; // Dùng cho màu chữ - Xám
+   --text-gray-color-600: #637280; // Dùng cho màu chữ - Xám
+   --text-blue-color-branch: #273581; // Dùng cho màu chữ - Xanh dương
+   --text-red-color: #f87f50;
+}
+
+:root {
+   --ant-primary-color: rgb(239, 82, 34);
+   --ant-primary-color-disabled: #ffdbc7;
+   --ant-primary-color-hover: #fc7b4c;
+   --ant-primary-color-active: #a32107;
+   --ant-primary-color-outline: rgba(239, 82, 34, 0.2);
+   --ant-primary-color-deprecated-bg: #ffdbc7;
+   --ant-primary-color-deprecated-border: #ff9f75;
+   --ant-primary-1: #fff6f0;
+   --ant-primary-2: #ffdbc7;
+   --ant-primary-3: #ffbe9e;
+   --ant-primary-4: #ff9f75;
+   --ant-primary-5: #fc7b4c;
+   --ant-primary-6: #ef5222;
+   --ant-primary-7: #c93712;
+   --ant-primary-8: #a32107;
+   --ant-primary-9: #7d1100;
+   --ant-primary-10: #570900;
+   --ant-primary-color-deprecated-l-35: rgb(251, 212, 200);
+   --ant-primary-color-deprecated-l-20: rgb(246, 156, 129);
+   --ant-primary-color-deprecated-t-20: rgb(242, 117, 78);
+   --ant-primary-color-deprecated-t-50: rgb(247, 169, 145);
+   --ant-primary-color-deprecated-f-12: rgba(239, 82, 34, 0.12);
+   --ant-primary-color-active-deprecated-f-30: rgba(255, 246, 240, 0.3);
+   --ant-primary-color-active-deprecated-d-02: rgb(255, 240, 230);
+}
+
+html {
+   font-family: "Inter Tight", sans-serif;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   background-color: #f3f3f5 !important;
+   //background-color: var(--bg-white) !important;
+}
+
+body {
+   overflow: overlay;
+   background-color: #f3f3f5 !important;
+}
+
+.layout {
+   max-width: 1128px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.home-title {
+   font-weight: 600;
+   font-size: 28px;
+   line-height: 33px;
+   color: var(--text-green-color);
+   font-weight: bold;
+}
+
+* {
+   font-family: "Inter Tight", sans-serif;
+   font-weight: 400;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   //background-color: var(--bg-white);
+}
+
+// Scrollbar style.
+::-webkit-scrollbar {
+   width: 8px !important;
+   height: 8px !important;
+   overflow: hidden !important;
+}
+
+::-webkit-scrollbar-thumb {
+   background: #dfe3e4 !important;
+   border-radius: 32px !important;
+   border: 4px solid transparent !important;
+   min-height: 50px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+   background: var(--bg-primary) !important;
+}

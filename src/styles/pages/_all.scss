@@ -1,0 +1,137 @@
+@use "sass:map";
+@import "resoponsive";
+@import "@fontsource/be-vietnam-pro"; // yarn add @fontsource/be-vietnam-pro
+html,
+body{
+    margin: 0;
+    
+}
+*{
+    font-family: "Inter Tight", sans-serif; //"Be Vietnam Pro"
+    padding:0;
+    margin:0;
+    //background-color: rgb(255, 247, 245);
+}
+
+.container{
+    max-width: 1199px; // 1170
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+    
+    
+}
+.container_footer_bottom{
+    max-width: 1199px; 
+    width: 100%;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin: auto;
+    background:  #096331; 
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-6{
+    flex:0 0 50%;
+    max-width: 50%;
+}
+.col-12{
+    flex:0 0 100%;
+    max-width: 100%;
+}
+.col-lg-3{
+    flex:0 0 25%;
+    max-width: 25%;
+}
+.col-lg-6 {
+    flex:0 0 50%;
+    max-width: 50%;
+}
+.col-lg-9 {
+    flex:0 0 75%;
+    max-width: 75%;
+}
+.button-submit {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 16px 30px 17px;
+    background: #6cb6e8;
+    border: none;
+    height: 100%;
+}
+/////////////////////////
+.pl-pr-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+@include Responsive($DESKTOP){
+    .col-xl-3{
+        flex: 0 0 25%;
+        max-width: 25%;  
+    }
+    .col-xl-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+@include Responsive($TABLET_DEVICE){
+    .container {
+        max-width: 720px;
+    }
+    .col-md-4{
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .col-md-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .col-md-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@include Responsive($MEDIUM_DEVICE){
+    .container {
+        max-width: 960px;
+    }
+    .col-lg-3{
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .col-xl-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@include Responsive($WIDE_MOBILE){
+    .container {
+        max-width: 540px;
+    }
+    .col-sm-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .col-sm-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@include Responsive($SMALL_DEVICES){
+    .container {
+        max-width: 350px;
+    }
+    .col-xs-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
